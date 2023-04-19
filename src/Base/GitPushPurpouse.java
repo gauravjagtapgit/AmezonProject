@@ -18,6 +18,7 @@ public class GitPushPurpouse {
 		options.merge(cp);
 		WebDriver driver=new ChromeDriver(options);
 		String url="https://www.amazon.in/";
+		driver.manage().window().maximize();
 		driver.get(url);
 	}
 
